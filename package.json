@@ -1,5 +1,5 @@
 {
-  "name": "react-native-dm-biometrics",
+  "name": "@daomydong1995/react-native-dm-biometrics",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
@@ -47,7 +47,10 @@
     "touch-id",
     "face-id"
   ],
-  "repository": "https://github.com/daomydong1995/react-native-dm-biometrics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daomydong1995/react-native-dm-biometrics.git"
+  },
   "author": "Đông Đào Mỹ <daomydong1995@gmail.com> (https://github.com/daomydong1995)",
   "license": "MIT",
   "bugs": {
@@ -58,6 +61,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
+    "@babel/runtime": "^7.21.5",
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.2.2",
     "@react-native-community/eslint-config": "^3.0.2",
@@ -163,7 +167,8 @@
       ]
     ]
   },
-  "dependencies": {
-    "@babel/runtime": "^7.21.5"
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }

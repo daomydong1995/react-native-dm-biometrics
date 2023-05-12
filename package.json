@@ -38,8 +38,14 @@
   },
   "keywords": [
     "react-native",
+    "android",
     "ios",
-    "android"
+    "biometrics",
+    "authentication",
+    "auth",
+    "fingerprint",
+    "touch-id",
+    "face-id"
   ],
   "repository": "https://github.com/daomydong1995/react-native-dm-biometrics",
   "author": "Đông Đào Mỹ <daomydong1995@gmail.com> (https://github.com/daomydong1995)",
@@ -52,8 +58,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@evilmartians/lefthook": "^1.2.2",
     "@commitlint/config-conventional": "^17.0.2",
+    "@evilmartians/lefthook": "^1.2.2",
     "@react-native-community/eslint-config": "^3.0.2",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^28.1.2",
@@ -78,7 +84,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": ">=0.60.0"
   },
   "engines": {
     "node": ">= 16.0.0"
@@ -156,5 +162,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.21.5"
   }
 }
